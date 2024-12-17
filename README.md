@@ -83,6 +83,8 @@ The break down of the final provided CNN architecture step by step:
 
 ![Model Evaluation](./model-3-evaluation.png)
 
+### **Note:**  Model 3 trained with augmented data and adding both batch normalization and a dropout layer before flatterning, that resulted to overcome overfitting but turbulent performance.
+
 ## Model 4 Summary
 
 ![Model Architecture](./model-4-summary.png)
@@ -90,6 +92,19 @@ The break down of the final provided CNN architecture step by step:
 ## Model 4 Evaluation
 
 ![Model Evaluation](./model-4-evaluation.png)
+
+### **Note:**  Model 4 trained with augmented data, without batch normalization and a dropout layer before flatterning, that resulted well-balanced performance, displaying no signs of underfitting or overfitting.
+
+## Overall Observations:
+
+- The implementation of class rebalancing has notably enhanced the model's performance across both training and validation datasets.
+- The narrow divergence between training and validation accuracies underscores the robust generalization capability of the final CNN model.
+- The addition of batch normalization failed to enhance both training and validation accuracy.
+- Those classes have significant percentage of representation were predicted accurately and on the other hand those classes which have low representation were predicted incorrectly.
+- 'basal cell carcinoma' class which has 376 representation (third highest) predicted correctly.
+- 'melanoma' class which has 438 representation (second highest) predicted correctly.
+- 'nevus' class which has 357 representation (fourth highest) predicted correctly.
+- 'pigmented benign keratosis' class which has 462 representation (highest) predicted correctly.
 
 ## Technologies Used
 
