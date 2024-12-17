@@ -67,7 +67,7 @@ The break down of the final provided CNN architecture step by step:
 
 ## Model 2 Summary
 
-![Model Architecture](./mode-2-summary.png)
+![Model Architecture](./model-2-summary.png)
 
 ## Model 2 Evaluation
 
@@ -75,7 +75,7 @@ The break down of the final provided CNN architecture step by step:
 
 ## Model 3 Summary
 
-![Model Architecture](./mode-3-summary.png)
+![Model Architecture](./model-3-summary.png)
 
 ## Model 3 Evaluation
 
