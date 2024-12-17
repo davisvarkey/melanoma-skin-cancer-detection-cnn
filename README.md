@@ -59,11 +59,11 @@ The break down of the final provided CNN architecture step by step:
 
 ## Model Summary
 
-![Model Architecture](./model_summary.png)
+![Model Architecture](./mode-1-summary.png)
 
 ## Model Evaluation
 
-![Model Evaluation](./model_evaluation.png)
+![Model Evaluation](./mode-1-evaluation.png)
 
 ## Technologies Used
 
