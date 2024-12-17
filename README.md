@@ -73,7 +73,7 @@ The break down of the final provided CNN architecture step by step:
 
 ![Model Evaluation](./model-2-evaluation.png)
 
-### **Note: model 2 trained with augmented data and adding a dropout layer before flatterning, that resulted to ovefcome overfitting and slight improvement in performance.**
+### **Note:**  Model 2 trained with augmented data and adding a dropout layer before flatterning, that resulted to overcome overfitting and slight improvement in performance.
 
 ## Model 3 Summary
 
