@@ -59,7 +59,7 @@ The break down of the final provided CNN architecture step by step:
 
 ## Model 1 Summary
 
-![Model Architecture](./mode-1-summary.png)
+![Model Architecture](./images/mode-1-summary.png)
 
 ## Model 1 Evaluation
 
