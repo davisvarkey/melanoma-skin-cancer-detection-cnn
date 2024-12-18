@@ -23,13 +23,13 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 The dataset comprises 2357 images depicting malignant and benign oncological conditions, sourced from the International Skin Imaging Collaboration (ISIC). These images were categorized based on the classification provided by ISIC, with each subset containing an equal number of images.
 
-![datasetgraph](./class_distribution.png)
+![datasetgraph](./images/class_distribution.png)
 
 In order to address the challenge of class imbalance, the Augmentor Python package (https://augmentor.readthedocs.io/en/master/) was employed to augment the dataset. This involved generating additional samples for all classes, ensuring that none of the classes had insufficient representation.
 
 ## Pictorial representation of skin types
 
-![skincancertypes](./skin_cancer_types.png)
+![skincancertypes](./images/skin_cancer_types.png)
 
 The aim of this task is to assign a specific class label to a particular type of skin cancer.
 
@@ -63,35 +63,35 @@ The break down of the final provided CNN architecture step by step:
 
 ## Model 1 Evaluation
 
-![Model Evaluation](./model-1-evaluation.png)
+![Model Evaluation](./images/model-1-evaluation.png)
 
 ## Model 2 Summary
 
-![Model Architecture](./model-2-summary.png)
+![Model Architecture](./images/model-2-summary.png)
 
 ## Model 2 Evaluation
 
-![Model Evaluation](./model-2-evaluation.png)
+![Model Evaluation](./images/model-2-evaluation.png)
 
 ### **Note:**  Model 2 trained with augmented data and adding a dropout layer before flatterning, that resulted to overcome overfitting and slight improvement in performance.
 
 ## Model 3 Summary
 
-![Model Architecture](./model-3-summary.png)
+![Model Architecture](./images/model-3-summary.png)
 
 ## Model 3 Evaluation
 
-![Model Evaluation](./model-3-evaluation.png)
+![Model Evaluation](./images/model-3-evaluation.png)
 
 ### **Note:**  Model 3 trained with augmented data and adding both batch normalization and a dropout layer before flatterning, that resulted to overcome overfitting but turbulent performance.
 
 ## Model 4 Summary
 
-![Model Architecture](./model-4-summary.png)
+![Model Architecture](./images/model-4-summary.png)
 
 ## Model 4 Evaluation
 
-![Model Evaluation](./model-4-evaluation.png)
+![Model Evaluation](./images/model-4-evaluation.png)
 
 ### **Note:**  Model 4 trained with augmented data, without batch normalization and a dropout layer before flatterning, that resulted well-balanced performance, displaying no signs of underfitting or overfitting.
 
